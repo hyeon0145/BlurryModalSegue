@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="HJHViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="j1Z-WG-sHD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFf-PD-FeZ">
+                                <rect key="frame" x="40" y="55" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cover Vertical">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZOQ-mF-ZtJ" kind="custom" identifier="PresentModalViewController|CoverVertical" customClass="HJHBlurryModalSegue" id="4jJ-Kx-lEg"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZO-Qf-KcS">
+                                <rect key="frame" x="99" y="135" width="123" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Without Predicate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZOQ-mF-ZtJ" kind="custom" identifier="PresentModalViewController" customClass="HJHBlurryModalSegue" id="TTb-d4-2N0"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Qd-Ia-WfJ">
+                                <rect key="frame" x="181" y="55" width="99" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Flip Horizontal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZOQ-mF-ZtJ" kind="custom" identifier="PresentModalViewController|FlipHorizontal" customClass="HJHBlurryModalSegue" id="tgH-rC-gMm"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YE4-j9-0uY">
+                                <rect key="frame" x="37" y="95" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cross Dissolve">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZOQ-mF-ZtJ" kind="custom" identifier="PresentModalViewController|CrossDissolve" customClass="HJHBlurryModalSegue" id="qRM-Bh-HT4"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrg-sz-chN">
+                                <rect key="frame" x="193" y="95" width="76" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Partial Curl">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZOQ-mF-ZtJ" kind="custom" identifier="PresentModalViewController|PartialCurl" customClass="HJHBlurryModalSegue" id="WXz-eI-Q8M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QFf-PD-FeZ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="35" id="9vn-eM-KiE"/>
+                            <constraint firstItem="UZO-Qf-KcS" firstAttribute="top" secondItem="YE4-j9-0uY" secondAttribute="bottom" constant="10" id="DuM-fE-Om7"/>
+                            <constraint firstAttribute="trailing" secondItem="j1Z-WG-sHD" secondAttribute="trailing" id="FhO-Rk-dxA"/>
+                            <constraint firstItem="j1Z-WG-sHD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Jfs-yp-QZG"/>
+                            <constraint firstItem="rrg-sz-chN" firstAttribute="centerX" secondItem="3Qd-Ia-WfJ" secondAttribute="centerX" id="Lat-te-L8u"/>
+                            <constraint firstItem="j1Z-WG-sHD" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="RHG-Mj-YDp"/>
+                            <constraint firstItem="rrg-sz-chN" firstAttribute="top" secondItem="3Qd-Ia-WfJ" secondAttribute="bottom" constant="10" id="ZuK-VS-Il1"/>
+                            <constraint firstAttribute="trailing" secondItem="3Qd-Ia-WfJ" secondAttribute="trailing" constant="40" id="bcF-oC-QKO"/>
+                            <constraint firstAttribute="bottom" secondItem="j1Z-WG-sHD" secondAttribute="bottom" id="hdx-WX-8oB"/>
+                            <constraint firstItem="YE4-j9-0uY" firstAttribute="top" secondItem="QFf-PD-FeZ" secondAttribute="bottom" constant="10" id="q5I-gU-iew"/>
+                            <constraint firstItem="YE4-j9-0uY" firstAttribute="centerX" secondItem="QFf-PD-FeZ" secondAttribute="centerX" id="vQQ-Pq-dKW"/>
+                            <constraint firstAttribute="centerX" secondItem="UZO-Qf-KcS" secondAttribute="centerX" id="w8c-v2-LCF"/>
+                            <constraint firstItem="3Qd-Ia-WfJ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="35" id="weK-kO-Dha"/>
+                            <constraint firstItem="QFf-PD-FeZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="40" id="xCv-ZJ-mR8"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-349" y="-278"/>
+        </scene>
+        <!--Modal View Controller - Modal View Controller-->
+        <scene sceneID="vRc-s8-7rI">
+            <objects>
+                <viewController id="7Fx-bF-khD" customClass="HJHModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mh6-Oj-oAQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="eWF-WD-sSE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kRj-Xe-C47">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Segue Identifier:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ER1-Li-qHX">
+                                <rect key="frame" x="107" y="276" width="106" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="ER1-Li-qHX" secondAttribute="centerX" id="2Ft-CL-dGw"/>
+                            <constraint firstAttribute="centerY" secondItem="ER1-Li-qHX" secondAttribute="centerY" id="ZpV-Ux-asi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Modal View Controller" id="mQK-AC-qPy">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="ZKy-zc-SJn">
+                            <connections>
+                                <segue destination="HGq-bR-Fhk" kind="unwind" unwindAction="unwind:" id="hB6-GR-6vj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="segueIdentifierLabel" destination="ER1-Li-qHX" id="Hdc-4R-AnV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bD5-85-wCo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="HGq-bR-Fhk" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="744" y="-278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WLH-cu-mB4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZOQ-mF-ZtJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VOI-yN-H2M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7Fx-bF-khD" kind="relationship" relationship="rootViewController" id="VgT-vv-cKd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HPo-3o-lv0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="-278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackgroundImage" width="320" height="568"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="4jJ-Kx-lEg"/>
+    </inferredMetricsTieBreakers>
+</document>

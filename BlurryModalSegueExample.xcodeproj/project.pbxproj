@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB43714B1961DC3E0046D6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43714A1961DC3E0046D6E1 /* Foundation.framework */; };
+		DB43714D1961DC3E0046D6E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43714C1961DC3E0046D6E1 /* CoreGraphics.framework */; };
+		DB43714F1961DC3E0046D6E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43714E1961DC3E0046D6E1 /* UIKit.framework */; };
+		DB4371551961DC3E0046D6E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB4371531961DC3E0046D6E1 /* InfoPlist.strings */; };
+		DB4371571961DC3E0046D6E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4371561961DC3E0046D6E1 /* main.m */; };
+		DB43715B1961DC3E0046D6E1 /* HJHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43715A1961DC3E0046D6E1 /* HJHAppDelegate.m */; };
+		DB43715E1961DC3E0046D6E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB43715C1961DC3E0046D6E1 /* Main.storyboard */; };
+		DB4371641961DC3E0046D6E1 /* HJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4371631961DC3E0046D6E1 /* HJHViewController.m */; };
+		DB4371661961DC3E0046D6E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4371651961DC3E0046D6E1 /* Images.xcassets */; };
+		DB43716D1961DC3E0046D6E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43716C1961DC3E0046D6E1 /* XCTest.framework */; };
+		DB43716E1961DC3E0046D6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43714A1961DC3E0046D6E1 /* Foundation.framework */; };
+		DB43716F1961DC3E0046D6E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43714E1961DC3E0046D6E1 /* UIKit.framework */; };
+		DB4371771961DC3E0046D6E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB4371751961DC3E0046D6E1 /* InfoPlist.strings */; };
+		DB4371791961DC3E0046D6E1 /* BlurryModalSegueExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4371781961DC3E0046D6E1 /* BlurryModalSegueExampleTests.m */; };
+		DB43718A1961DD390046D6E1 /* HJHBlurryModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4371851961DD390046D6E1 /* HJHBlurryModalSegue.m */; };
+		DB43718C1961DD390046D6E1 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4371881961DD390046D6E1 /* UIImage+ImageEffects.m */; };
+		DB43718F1961DD5D0046D6E1 /* HJHModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43718E1961DD5D0046D6E1 /* HJHModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB4371701961DC3E0046D6E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB43713F1961DC3E0046D6E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4371461961DC3E0046D6E1;
+			remoteInfo = BlurryModalSegueExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB4371471961DC3E0046D6E1 /* BlurryModalSegueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurryModalSegueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43714A1961DC3E0046D6E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB43714C1961DC3E0046D6E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB43714E1961DC3E0046D6E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB4371521961DC3E0046D6E1 /* BlurryModalSegueExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurryModalSegueExample-Info.plist"; sourceTree = "<group>"; };
+		DB4371541961DC3E0046D6E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB4371561961DC3E0046D6E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB4371581961DC3E0046D6E1 /* BlurryModalSegueExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlurryModalSegueExample-Prefix.pch"; sourceTree = "<group>"; };
+		DB4371591961DC3E0046D6E1 /* HJHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHAppDelegate.h; sourceTree = "<group>"; };
+		DB43715A1961DC3E0046D6E1 /* HJHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHAppDelegate.m; sourceTree = "<group>"; };
+		DB43715D1961DC3E0046D6E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB4371621961DC3E0046D6E1 /* HJHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHViewController.h; sourceTree = "<group>"; };
+		DB4371631961DC3E0046D6E1 /* HJHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHViewController.m; sourceTree = "<group>"; };
+		DB4371651961DC3E0046D6E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB43716B1961DC3E0046D6E1 /* BlurryModalSegueExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurryModalSegueExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43716C1961DC3E0046D6E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB4371741961DC3E0046D6E1 /* BlurryModalSegueExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurryModalSegueExampleTests-Info.plist"; sourceTree = "<group>"; };
+		DB4371761961DC3E0046D6E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB4371781961DC3E0046D6E1 /* BlurryModalSegueExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurryModalSegueExampleTests.m; sourceTree = "<group>"; };
+		DB4371841961DD390046D6E1 /* HJHBlurryModalSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHBlurryModalSegue.h; sourceTree = "<group>"; };
+		DB4371851961DD390046D6E1 /* HJHBlurryModalSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHBlurryModalSegue.m; sourceTree = "<group>"; };
+		DB4371871961DD390046D6E1 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		DB4371881961DD390046D6E1 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		DB43718D1961DD5C0046D6E1 /* HJHModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHModalViewController.h; sourceTree = "<group>"; };
+		DB43718E1961DD5D0046D6E1 /* HJHModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4371441961DC3E0046D6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43714D1961DC3E0046D6E1 /* CoreGraphics.framework in Frameworks */,
+				DB43714F1961DC3E0046D6E1 /* UIKit.framework in Frameworks */,
+				DB43714B1961DC3E0046D6E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4371681961DC3E0046D6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43716D1961DC3E0046D6E1 /* XCTest.framework in Frameworks */,
+				DB43716F1961DC3E0046D6E1 /* UIKit.framework in Frameworks */,
+				DB43716E1961DC3E0046D6E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB43713E1961DC3E0046D6E1 = {
+			isa = PBXGroup;
+			children = (
+				DB4371501961DC3E0046D6E1 /* BlurryModalSegueExample */,
+				DB4371721961DC3E0046D6E1 /* BlurryModalSegueExampleTests */,
+				DB4371491961DC3E0046D6E1 /* Frameworks */,
+				DB4371481961DC3E0046D6E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4371481961DC3E0046D6E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4371471961DC3E0046D6E1 /* BlurryModalSegueExample.app */,
+				DB43716B1961DC3E0046D6E1 /* BlurryModalSegueExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4371491961DC3E0046D6E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB43714A1961DC3E0046D6E1 /* Foundation.framework */,
+				DB43714C1961DC3E0046D6E1 /* CoreGraphics.framework */,
+				DB43714E1961DC3E0046D6E1 /* UIKit.framework */,
+				DB43716C1961DC3E0046D6E1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB4371501961DC3E0046D6E1 /* BlurryModalSegueExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB4371821961DD390046D6E1 /* BlurryModalSegue */,
+				DB4371591961DC3E0046D6E1 /* HJHAppDelegate.h */,
+				DB43715A1961DC3E0046D6E1 /* HJHAppDelegate.m */,
+				DB43715C1961DC3E0046D6E1 /* Main.storyboard */,
+				DB4371621961DC3E0046D6E1 /* HJHViewController.h */,
+				DB4371631961DC3E0046D6E1 /* HJHViewController.m */,
+				DB43718D1961DD5C0046D6E1 /* HJHModalViewController.h */,
+				DB43718E1961DD5D0046D6E1 /* HJHModalViewController.m */,
+				DB4371651961DC3E0046D6E1 /* Images.xcassets */,
+				DB4371511961DC3E0046D6E1 /* Supporting Files */,
+			);
+			path = BlurryModalSegueExample;
+			sourceTree = "<group>";
+		};
+		DB4371511961DC3E0046D6E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB4371521961DC3E0046D6E1 /* BlurryModalSegueExample-Info.plist */,
+				DB4371531961DC3E0046D6E1 /* InfoPlist.strings */,
+				DB4371561961DC3E0046D6E1 /* main.m */,
+				DB4371581961DC3E0046D6E1 /* BlurryModalSegueExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB4371721961DC3E0046D6E1 /* BlurryModalSegueExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB4371781961DC3E0046D6E1 /* BlurryModalSegueExampleTests.m */,
+				DB4371731961DC3E0046D6E1 /* Supporting Files */,
+			);
+			path = BlurryModalSegueExampleTests;
+			sourceTree = "<group>";
+		};
+		DB4371731961DC3E0046D6E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB4371741961DC3E0046D6E1 /* BlurryModalSegueExampleTests-Info.plist */,
+				DB4371751961DC3E0046D6E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB4371821961DD390046D6E1 /* BlurryModalSegue */ = {
+			isa = PBXGroup;
+			children = (
+				DB4371841961DD390046D6E1 /* HJHBlurryModalSegue.h */,
+				DB4371851961DD390046D6E1 /* HJHBlurryModalSegue.m */,
+				DB4371871961DD390046D6E1 /* UIImage+ImageEffects.h */,
+				DB4371881961DD390046D6E1 /* UIImage+ImageEffects.m */,
+			);
+			path = BlurryModalSegue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4371461961DC3E0046D6E1 /* BlurryModalSegueExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43717C1961DC3E0046D6E1 /* Build configuration list for PBXNativeTarget "BlurryModalSegueExample" */;
+			buildPhases = (
+				DB4371431961DC3E0046D6E1 /* Sources */,
+				DB4371441961DC3E0046D6E1 /* Frameworks */,
+				DB4371451961DC3E0046D6E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurryModalSegueExample;
+			productName = BlurryModalSegueExample;
+			productReference = DB4371471961DC3E0046D6E1 /* BlurryModalSegueExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB43716A1961DC3E0046D6E1 /* BlurryModalSegueExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43717F1961DC3E0046D6E1 /* Build configuration list for PBXNativeTarget "BlurryModalSegueExampleTests" */;
+			buildPhases = (
+				DB4371671961DC3E0046D6E1 /* Sources */,
+				DB4371681961DC3E0046D6E1 /* Frameworks */,
+				DB4371691961DC3E0046D6E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4371711961DC3E0046D6E1 /* PBXTargetDependency */,
+			);
+			name = BlurryModalSegueExampleTests;
+			productName = BlurryModalSegueExampleTests;
+			productReference = DB43716B1961DC3E0046D6E1 /* BlurryModalSegueExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB43713F1961DC3E0046D6E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HJH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jonghwan Hyeon";
+				TargetAttributes = {
+					DB43716A1961DC3E0046D6E1 = {
+						TestTargetID = DB4371461961DC3E0046D6E1;
+					};
+				};
+			};
+			buildConfigurationList = DB4371421961DC3E0046D6E1 /* Build configuration list for PBXProject "BlurryModalSegueExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB43713E1961DC3E0046D6E1;
+			productRefGroup = DB4371481961DC3E0046D6E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4371461961DC3E0046D6E1 /* BlurryModalSegueExample */,
+				DB43716A1961DC3E0046D6E1 /* BlurryModalSegueExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4371451961DC3E0046D6E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4371661961DC3E0046D6E1 /* Images.xcassets in Resources */,
+				DB43715E1961DC3E0046D6E1 /* Main.storyboard in Resources */,
+				DB4371551961DC3E0046D6E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4371691961DC3E0046D6E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4371771961DC3E0046D6E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4371431961DC3E0046D6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43718A1961DD390046D6E1 /* HJHBlurryModalSegue.m in Sources */,
+				DB43718C1961DD390046D6E1 /* UIImage+ImageEffects.m in Sources */,
+				DB4371641961DC3E0046D6E1 /* HJHViewController.m in Sources */,
+				DB43718F1961DD5D0046D6E1 /* HJHModalViewController.m in Sources */,
+				DB4371571961DC3E0046D6E1 /* main.m in Sources */,
+				DB43715B1961DC3E0046D6E1 /* HJHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4371671961DC3E0046D6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4371791961DC3E0046D6E1 /* BlurryModalSegueExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB4371711961DC3E0046D6E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4371461961DC3E0046D6E1 /* BlurryModalSegueExample */;
+			targetProxy = DB4371701961DC3E0046D6E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB4371531961DC3E0046D6E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4371541961DC3E0046D6E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB43715C1961DC3E0046D6E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB43715D1961DC3E0046D6E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB4371751961DC3E0046D6E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4371761961DC3E0046D6E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB43717A1961DC3E0046D6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB43717B1961DC3E0046D6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB43717D1961DC3E0046D6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurryModalSegueExample/BlurryModalSegueExample-Prefix.pch";
+				INFOPLIST_FILE = "BlurryModalSegueExample/BlurryModalSegueExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB43717E1961DC3E0046D6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurryModalSegueExample/BlurryModalSegueExample-Prefix.pch";
+				INFOPLIST_FILE = "BlurryModalSegueExample/BlurryModalSegueExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB4371801961DC3E0046D6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurryModalSegueExample.app/BlurryModalSegueExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurryModalSegueExample/BlurryModalSegueExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlurryModalSegueExampleTests/BlurryModalSegueExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB4371811961DC3E0046D6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurryModalSegueExample.app/BlurryModalSegueExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurryModalSegueExample/BlurryModalSegueExample-Prefix.pch";
+				INFOPLIST_FILE = "BlurryModalSegueExampleTests/BlurryModalSegueExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4371421961DC3E0046D6E1 /* Build configuration list for PBXProject "BlurryModalSegueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43717A1961DC3E0046D6E1 /* Debug */,
+				DB43717B1961DC3E0046D6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB43717C1961DC3E0046D6E1 /* Build configuration list for PBXNativeTarget "BlurryModalSegueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43717D1961DC3E0046D6E1 /* Debug */,
+				DB43717E1961DC3E0046D6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB43717F1961DC3E0046D6E1 /* Build configuration list for PBXNativeTarget "BlurryModalSegueExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4371801961DC3E0046D6E1 /* Debug */,
+				DB4371811961DC3E0046D6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB43713F1961DC3E0046D6E1 /* Project object */;
+}
