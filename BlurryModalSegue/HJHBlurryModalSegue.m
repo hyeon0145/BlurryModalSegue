@@ -39,7 +39,7 @@
 
 - (void)perform
 {
-    UIImage *backgroundImage = [self imageOfView:self.sourceViewController.view];
+    UIImage *backgroundImage = [self imageOfView:self.sourceViewController.view.window];
     backgroundImage = [backgroundImage applyLightEffect];
     
     UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:backgroundImage];
@@ -60,7 +60,7 @@
 
 - (UIImage *)imageOfView:(UIView *)view
 {
-    UIGraphicsBeginImageContext(view.frame.size);
+    UIGraphicsBeginImageContext(view.bounds.size);
     [view drawViewHierarchyInRect:view.bounds afterScreenUpdates:YES];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
